@@ -1,0 +1,141 @@
+.App {
+  background-color: darkcyan;
+  margin: 10%;
+  padding-top: 1px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  min-width: 700px;
+  max-width: 1600px;
+}
+
+h1{
+  text-align: center;
+}
+
+.todo-wrapper {
+
+}
+
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #282c34;
+}
+
+.todo-input-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+
+.todo-input-item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.todo-input-item input{
+  width: 250px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.todo-input-item input:focus{
+  outline: none;
+  border: 3px solid #50c878;
+}  
+.primaryBtn{
+  text-align: center;
+  border-radius: 5px;
+  background-color: #50c878;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.primaryBtn:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.btn-area {
+}
+
+.secondaryBtn{
+  padding: 5px;
+  text-align: center;
+  min-width: 80px;
+  max-width: 80px;
+  border-radius: 5px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.active{
+  background-color: #50c878;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+
+  padding-top: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-color: #282c34;
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+
+.todo-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-shadow: 0px 3px 5px rgb(43, 42, 42);
+}
+
+.todo-input-item h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.todo-list-item p{
+  font-size: 16px;
+}
+
+.icon {
+font-size: 35px;
+cursor: pointer;
+margin-top: 50%;
+margin-bottom: 50%;
+}
+
+.icon:hover {
+  color: red;
+}
+
+.check-icon{
+  font-size: 35px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #01802b;
+}
+
+.check-icon:hover {
+  color: #006923;
+}
